@@ -1,5 +1,5 @@
 {
-    "name": "waughjai/html-attribute",
+    "name": "waughj/html-attribute",
     "description": "Simple class for encapsulating an HTML attribute",
     "keywords": [ "attribute", "HTML" ],
     "license": "GPL-2.0-or-later",
