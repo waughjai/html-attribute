@@ -1,9 +1,9 @@
 <?php
 
 declare( strict_types = 1 );
-namespace WaughJ\Attribute
+namespace WaughJ\HTMLAttribute
 {
-	class Attribute
+	class HTMLAttribute
 	{
 		public function __construct( string $key, string $value )
 		{

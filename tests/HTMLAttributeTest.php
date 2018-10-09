@@ -2,17 +2,17 @@
 
 use PHPUnit\Framework\TestCase;
 
-class AttributeTest extends TestCase
+class HTMLAttributeTest extends TestCase
 {
 	public function testIsThereAnySyntaxError()
 	{
-		$attribute = new WaughJ\Attribute\Attribute( 'something', 'other' );
+		$attribute = new WaughJ\HTMLAttribute\HTMLAttribute( 'something', 'other' );
 		$this->assertTrue( is_object( $attribute ) );
 	}
 
 	public function testIsAttributeHTMLCorrect()
 	{
-		$attribute = new WaughJ\Attribute\Attribute( 'class', 'footer' );
+		$attribute = new WaughJ\HTMLAttribute\HTMLAttribute( 'class', 'footer' );
 		$this->assertEquals( $attribute->GetText(), 'class="footer"' );
 	}
 }
